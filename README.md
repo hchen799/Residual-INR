@@ -12,4 +12,4 @@ This repository includes all of the code implementation for the Residual-INR sub
 pip install -r requirements.txt
 ```
 
-- **Hardware**: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB)
+- **Hardware**: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB). You can run our code on any GPU platforms that can support PyTorch.
