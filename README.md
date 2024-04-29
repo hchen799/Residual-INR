@@ -13,3 +13,9 @@ pip install -r requirements.txt
 ```
 
 - **Hardware**: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB). You can run our code on any GPU platforms that can support PyTorch.
+
+## Residual-INR Encoding
+
+#### Background INR Encoding
+
+
