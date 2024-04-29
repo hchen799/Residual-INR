@@ -6,10 +6,10 @@ This repository includes all of the code implementation for the Residual-INR sub
 
 ## Environment Setup
 
-Software: All of our experiments are finihsed with Python. You can set up the Python environment by running the following command:
+- **Software**: All of our experiments are finihsed with Python. You can set up the Python environment by running the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Hardware: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB)
+- **Hardware**: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB)
