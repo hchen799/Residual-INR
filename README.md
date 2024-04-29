@@ -10,5 +10,6 @@ Software: All of our experiments are finihsed with Python. You can set up the Py
 
 ```bash
 pip install -r requirements.txt
+```
 
 Hardware: INR decoding on GPU is finished on NVIDIA RTX A6000 (48GB)
