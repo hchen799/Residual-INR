@@ -16,6 +16,6 @@ pip install -r requirements.txt
 
 ## Residual-INR Encoding
 
--#### Background INR Encoding
+#### - Background INR Encoding
 
 
