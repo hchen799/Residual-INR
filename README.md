@@ -18,4 +18,12 @@ pip install -r requirements.txt
 
 #### Background INR Encoding
 
+Background INR encoding is based on Rapid-INR using MLPs. Run the following commands to encode a dataset:
+
+```bash
+cd B_INR_encode
+
+python background_INR_encoding.py --dataset_dir ../data/OTB/
+```
+The dataset path is specified as the --dataset_dir flag. 
 
