@@ -26,3 +26,14 @@ python background_INR_encoding.py --dataset_dir ../data/OTB/
 ```
 The dataset path is specified as the --dataset_dir flag. 
 
+#### Object INR Encoding
+
+Object INR encoding is based on tiny MLPs. Run the following commands to encode a dataset:
+
+```bash
+cd O_INR_encode
+python O_INR_encoding.py --area_array_path ../area_info --train_list_path ./residual_array --train_ref_list_path ./raw_object_array --train_recon_list_path ./B_INR_recon_object_array
+```
+The object area information is specified as the --area_array_path flag, the genrated object residual array is specified as the --train_list_path flag, the cropped raw object array is specified as the --train_ref_list_path flag, the INR reconstructed object array is specified as the --train_recon_list_path flag
+
+
