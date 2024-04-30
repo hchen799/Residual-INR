@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 #### Background INR Encoding
 
-If background INR encoding is based on Rapid-INR using MLPs. Run the following commands to encode a dataset:
+If background INR encoding is based on **Rapid-INR** using MLPs. Run the following commands to encode a dataset:
 
 ```bash
 cd B_INR_encode
@@ -26,7 +26,7 @@ python background_INR_encoding_Rapid_INR.py --dataset_dir ../data/OTB/
 ```
 The dataset path is specified as the --dataset_dir flag. 
 
-If background INR encoding is based on NeRV using mixed MLPs and CNN. Run the following commands to encode a dataset:
+If background INR encoding is based on **NeRV** using mixed MLPs and CNN. Run the following commands to encode a dataset:
 
 ```bash
 cd B_INR_encode
