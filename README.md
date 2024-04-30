@@ -16,6 +16,9 @@ pip install -r requirements.txt
 
 ## Residual-INR Encoding
 
+
+
+
 #### Background INR Encoding
 
 If background INR encoding is based on **Rapid-INR** using MLPs. Run the following commands to encode a dataset:
@@ -30,7 +33,15 @@ If background INR encoding is based on **NeRV** using mixed MLPs and CNN. Run th
 
 ```bash
 cd B_INR_encode
-python background_INR_encoding_NeRV.py ----train_image_path ../data/OTB/
+python background_INR_encoding_NeRV.py --train_image_path ../data/OTB/
+```
+
+#### Generate Object Residual
+
+
+```bash
+cd O_INR_encode
+python generate_residual.py ---recon_npy_path ./recon_object_array --ref_npy_path ./raw_object_array --residual_output_path ./residual_array
 ```
 
 #### Object INR Encoding
