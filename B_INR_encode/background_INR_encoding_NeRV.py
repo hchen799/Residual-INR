@@ -28,7 +28,6 @@ parser.add_argument("-device", "--device", help="The id of the GPU", default=f"c
 parser.add_argument("-video_index_base", "--video_index_base", help="The start index of encoding video", type = int, default=0)
 parser.add_argument("-encode_video_num", "--encode_video_num", help="The encoded video num", type = int, default=10)
 parser.add_argument("-B_INR_NeRV_weight_path", "--B_INR_NeRV_weight_path", help="The background INR weight save path", default=f"./B_INR_weights")
-parser.add_argument("-train_list_path", "--train_list_path", help="The train list path", default=f"train_list_1_array_OTB.txt")
 parser.add_argument("-epochs", "--epochs", help="The NeRV training epochs", type = int, default=300)
 parser.add_argument("-temporal_embed", "--temporal_embed", help="The temporal embedding", default=f"1.25_40")
 parser.add_argument("-stem_dim_num", "--stem_dim_num", help="The MLP hidden layer dim", default=f"256_1")
